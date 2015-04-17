@@ -20,11 +20,13 @@ android {
 }
 
 repositories {
-    maven { url 'http://ringcaptcha.github.io/ringcaptcha-android'}
+    flatDir{
+        dirs 'libs'
+    }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
-    compile 'com.thrivecom:ringcaptcha:1.0.8@aar'
+    compile(name:'ringcaptcha', ext:'aar')
 }

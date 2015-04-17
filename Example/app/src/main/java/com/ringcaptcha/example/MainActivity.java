@@ -14,11 +14,10 @@ import com.thrivecom.ringcaptcha.RingcaptchaApplication;
 import com.thrivecom.ringcaptcha.RingcaptchaApplicationHandler;
 import com.thrivecom.ringcaptcha.RingcaptchaVerification;
 
-
 public class MainActivity extends ActionBarActivity {
 
-    private static final String APP_KEY = "REPLACE_WITH_YOUR_APP_KEY";
-    private static final String API_SECRET = "REPLACE_WITH_YOUR_SECREY_KEY";
+    private static final String APP_KEY = "4e8a2y7a5oby5iva9imu";
+    private static final String API_SECRET = "na6e7y9ilu7ucybapego";
     private static final String TAG = "Ringcaptcha";
 
     @Override
